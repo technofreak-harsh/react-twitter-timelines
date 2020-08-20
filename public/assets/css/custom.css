@@ -1,0 +1,29 @@
+body .page-header {
+  background-image: url('/assets/img/myWebsiteBg.jpg');
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+body .page-header > .container {
+  padding-top: 20px;
+} 
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.info {
+  max-width: 560px;
+}
+
+.navbar .card-title {
+  color: #fff;
+}
+
+.btn.btn-primary, .btn.btn-primary:hover,.btn.btn-primary:focus, .btn.btn-primary:active:focus, .btn.btn-primary:active:hover {
+  background-color: #00bcd4; 
+} 
+
+.btn.btn-round {
+  border-radius: 5px;
+}
